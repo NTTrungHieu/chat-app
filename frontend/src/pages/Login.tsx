@@ -29,6 +29,7 @@ const Login = () => {
               placeholder="Enter username"
               className="w-full input input-bordered h-10"
               onChange={(e) => setInfo({ ...info, username: e.target.value })}
+              value={info.username}
             />
           </div>
 
@@ -41,6 +42,7 @@ const Login = () => {
               placeholder="Enter Password"
               className="w-full input input-bordered h-10"
               onChange={(e) => setInfo({ ...info, password: e.target.value })}
+              value={info.password}
             />
           </div>
           <Link
