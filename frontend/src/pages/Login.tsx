@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Login = () => {
   const { loading, login } = useLogIn();
-  const [info, setInfo] = useState({ username: "", password: "" });
+  const [info, setInfo] = useState({ username: "hieuhieu@gmail.com", password: "123123" });
 
   const handleSubmitForm = (e: React.FormEvent) => {
     e.preventDefault();
